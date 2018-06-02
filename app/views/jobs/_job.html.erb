@@ -1,0 +1,17 @@
+<tr>
+  <td><%= job.type_work %></td>
+  <td><%= job.department_owner %></td>
+  <td><%= job.branch_site %></td>
+  <td><%= job.position %></td>
+  <td><%= job.number_asset %></td>
+  <td><%= job.group_asset %></td>
+  <td><%= job.order_number %></td>
+  <td><%= job.operation_number %></td>
+  <td><%= job.operation_description %></td>
+  <td><%= job.labor_plain %></td>
+  <td><%= job.total_plan %></td>
+  <td><%= link_to 'Show', job_path(job) %></td>
+  <td><%= link_to 'Edit', edit_job_path(job) %></td>
+  <td><%= link_to 'Destroy', job, method: :delete, data: { confirm: 'Are you sure?' } %>
+  </td>
+</tr>
